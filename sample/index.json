@@ -1,0 +1,15 @@
+{
+  "budget": 1,
+  "bad_term_code": "E_BAD_TERM",
+  "bad_doc_code": "E_BAD_DOC",
+  "dup_code": "E_DUP_POSTING",
+  "missing_code": "E_NO_TERM",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "postings": [], "freqs": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "index", "term": "a", "doc": 1 },
+    { "id": 2, "kind": "index", "term": "b", "doc": 2 },
+    { "id": 3, "kind": "index", "term": "a", "doc": 3 },
+    { "id": 4, "kind": "freq", "term": "a" }
+  ]
+}
